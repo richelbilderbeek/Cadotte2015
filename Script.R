@@ -19,7 +19,7 @@ tr<-rescale(tr,"depth",160)
 dat<-read.csv("planted.csv")
 
 ##community matrix
-species<-dat[5:18]
+species<-dat[2:15] #RJCB: original was `species<-dat[5:18]`
 spp.mat<-species
 rownames(spp.mat)<-as.character(dat$PLOT)
 spp.mat<-as.matrix(spp.mat)
@@ -30,7 +30,7 @@ spp.mat2<-spp.mat[p2>1,]
 spp.mat2[is.na(spp.mat2)]<-0
 
 ##biomass
-datt<-read.csv("/Users/marc/Documents/Marc2013/experiments/field_exp/data/anal_dat.csv")
+datt<-read.csv("anal_dat.csv")
 dat2<-datt[,c(14,4)]
 rownames(dat2)<-datt$Plot
 
