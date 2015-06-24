@@ -7,9 +7,9 @@ My notes on the article 'Phylogenetic diversity–ecosystem function relationshi
 
  * To download the needed files: in a terminal, type `./Download.sh`
 
-
+Then run the script `Script.R`.
 
 ## Other files
 
 The file `fec12429-sup-0002-Suppinfo.txt` is from Marc Cadotte.
-`Script.R` is only a slight modification of this
+`Script.R` is a slight modification of this, in which I believed I may have fixed an error, but am not sure yet.
