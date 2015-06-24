@@ -10,7 +10,7 @@ Then run the script `Script.R`.
 
 This produces the following figure:
 
-![Figure 3](Figure3.png)
+![Figure 3](Fig3.png)
 
 ## Other files
 
