@@ -19,7 +19,7 @@ tr<-rescale(tr,"depth",160)
 dat<-read.csv("planted.csv")
 
 ##community matrix
-species<-dat[2:15] #RJCB: original was `species<-dat[5:18]`
+species<-dat[2:ncol(dat)] #Fix from Marc W. Cadotte
 spp.mat<-species
 rownames(spp.mat)<-as.character(dat$PLOT)
 spp.mat<-as.matrix(spp.mat)
